@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.simplem.doubanbook.mapper.BookMapper">
+
+
+    <select id="selectAll" resultType="book">
+        select * from book
+    </select>
+
+    <resultMap id="bookImage" type="Book">
+        <result property="id" column="bid"/>
+        <result property="panelImg" column="panelImg"/>
+        <result property="bookfaceImg" column="bookfaceImg"/>
+        <result property="price" column="price"/>
+        <result property="bookName" column="bookName"/>
+        <result property="description" column="description"/>
+        <result property="author" column="author"/>
+        <result property="press" column="press"/>
+        <result property="publishTime" column="publishTime"/>
+        <result property="binding" column="binding"/>
+        <result property="ISBN" column="ISBN"/>
+        <collection property="images" ofType="Image">
+            <result property="id" column="iid"/>
+            <result property="imgUrl" column="imgurl"/>
+            <result property="bookId" column="bookid"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectById" parameterType="int" resultMap="bookImage">
+        select
+        b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN,
+        i.id iid,i.imgUrl,i.bookId
+        from book b
+        inner join image i on b.id = i.bookId
+        where b.id = #{bid} and isShow
+    </select>
+
+    <!--插入图书展示页面的基本信息-->
+    <insert id="insert" parameterType="Book">
+        insert into book(panelImg, bookfaceImg, price, bookName, description,isShow)
+        values (#{panelImg},#{bookfaceImg},#{price},#{bookName},#{description},#{isShow})
+    </insert>
+
+    <!--插入图书详细信息-->
+    <update id="updateDetail">
+        update book
+        set author=#{book.author},press=#{book.press}, publishTime=#{book.publishTime},
+         binding=#{book.binding},ISBN=#{book.ISBN}
+        where id= #{id}
+    </update>
+
+    <select id="cart" parameterType="list" resultType="book">
+        select * from book
+        <where> id in
+            <foreach collection="list" item="id" open="(" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+
+    <!--查询图书价格-->
+    <select id="selectPrise" parameterType="int" resultType="bigDecimal">
+        select price from book where id = #{bid};
+    </select>
+</mapper>

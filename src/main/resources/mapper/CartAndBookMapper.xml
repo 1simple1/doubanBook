@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.simplem.doubanbook.mapper.CartAndBookMapper">
+
+    <select id="selectByCartIdBookId" resultType="CartAndBook">
+        select * from cart_book where cartId = #{cid} and bookId = #{bid}
+    </select>
+
+    <insert id="insertBook" parameterType="_int">
+        INSERT INTO cart_book(cartid,bookId,booknum) VALUES(#{cid},#{bid},1)
+    </insert>
+
+    <update id="updateBookNum" parameterType="_int">
+        update cart_book set bookNum = bookNum + 1 where cartId = #{cid} and bookId = #{bid}
+    </update>
+
+
+</mapper>

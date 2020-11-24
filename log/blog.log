@@ -1,0 +1,820 @@
+2020-11-24 11:25:17.647  INFO 3820 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 3820 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:25:17.657 DEBUG 3820 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:25:17.661  INFO 3820 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:25:22.200  INFO 3820 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:25:22.682  WARN 3820 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:25:23.126  INFO 3820 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.491 seconds (JVM running for 9.245)
+2020-11-24 11:25:23.830  INFO 3820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:25:24.277  INFO 3820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:25:24.294 DEBUG 3820 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = #(bid)
+2020-11-24 11:25:24.331 DEBUG 3820 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer)
+2020-11-24 11:25:24.555  INFO 3820 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:25:24.557  INFO 3820 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:25:24.581  INFO 3820 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:26:31.812  INFO 9876 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 9876 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:26:31.813 DEBUG 9876 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:26:31.816  INFO 9876 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:26:35.193  INFO 9876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:26:35.784  WARN 9876 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:26:36.174  INFO 9876 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.404 seconds (JVM running for 8.358)
+2020-11-24 11:26:36.643  INFO 9876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:26:37.023  INFO 9876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:26:37.037 DEBUG 9876 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = #(bid)
+2020-11-24 11:26:37.086 DEBUG 9876 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer)
+2020-11-24 11:26:37.325  INFO 9876 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:26:37.326  INFO 9876 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:26:37.350  INFO 9876 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:32:23.988  INFO 2216 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 2216 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:32:23.991 DEBUG 2216 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:32:24.000  INFO 2216 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:32:28.313  INFO 2216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:32:28.829  WARN 2216 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:32:29.459  INFO 2216 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.212 seconds (JVM running for 8.952)
+2020-11-24 11:32:30.135  INFO 2216 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:33:35.730  INFO 160 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 160 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:33:35.731 DEBUG 160 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:33:35.733  INFO 160 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:33:39.649  INFO 160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:33:40.132  WARN 160 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:33:40.570  INFO 160 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.028 seconds (JVM running for 8.499)
+2020-11-24 11:33:41.044  INFO 160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:33:41.427  INFO 160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:33:41.441 DEBUG 160 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = #(bid)
+2020-11-24 11:33:41.508 DEBUG 160 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer)
+2020-11-24 11:33:41.743  INFO 160 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:33:41.744  INFO 160 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:33:41.778  INFO 160 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:39:03.461  INFO 7352 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 7352 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:39:03.462 DEBUG 7352 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:39:03.465  INFO 7352 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:39:07.280  INFO 7352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:39:07.874  WARN 7352 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:39:08.361  INFO 7352 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.664 seconds (JVM running for 7.87)
+2020-11-24 11:39:08.831  INFO 7352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:39:09.296  INFO 7352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:39:09.307 DEBUG 7352 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = #(cid) and bookId = #(bid)
+2020-11-24 11:39:09.342 DEBUG 7352 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 
+2020-11-24 11:39:09.583  INFO 7352 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:39:09.585  INFO 7352 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:39:09.615  INFO 7352 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:40:30.848  INFO 9904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 9904 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:40:30.850 DEBUG 9904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:40:30.853  INFO 9904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:40:35.364  INFO 9904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:40:35.921  WARN 9904 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:40:36.332  INFO 9904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.648 seconds (JVM running for 9.245)
+2020-11-24 11:40:37.122  INFO 9904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:40:37.995  INFO 9904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:40:38.010 DEBUG 9904 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:40:38.068 DEBUG 9904 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:40:38.177 DEBUG 9904 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 11:40:38.321  INFO 9904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:40:38.323  INFO 9904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:40:38.365  INFO 9904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:43:00.661  INFO 6992 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 6992 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:43:00.663 DEBUG 6992 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:43:00.667  INFO 6992 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:43:04.896  INFO 6992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:43:05.574  WARN 6992 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:43:05.999  INFO 6992 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.208 seconds (JVM running for 8.601)
+2020-11-24 11:43:06.561  INFO 6992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:43:06.998  INFO 6992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:43:07.019 DEBUG 6992 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:43:07.061 DEBUG 6992 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:43:07.094 DEBUG 6992 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 11:43:07.197  INFO 6992 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:43:07.207  INFO 6992 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:43:07.234  INFO 6992 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:44:21.855  INFO 1584 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 1584 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:44:21.856 DEBUG 1584 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:44:21.858  INFO 1584 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:44:24.781  INFO 1584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:44:25.226  WARN 1584 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:44:25.683  INFO 1584 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 4.823 seconds (JVM running for 7.153)
+2020-11-24 11:44:26.049  INFO 1584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:44:26.381  INFO 1584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:44:26.395 DEBUG 1584 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:44:26.435 DEBUG 1584 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:44:26.473 DEBUG 1584 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 11:44:26.489 DEBUG 1584 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 11:44:26.491 DEBUG 1584 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:44:26.521 DEBUG 1584 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 0
+2020-11-24 11:44:26.620  INFO 1584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:44:26.624  INFO 1584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:44:26.645  INFO 1584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:45:28.307  INFO 3272 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 3272 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:45:28.310 DEBUG 3272 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:45:28.312  INFO 3272 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:45:31.932  INFO 3272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:45:32.398  WARN 3272 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:45:32.885  INFO 3272 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.457 seconds (JVM running for 7.861)
+2020-11-24 11:45:33.393  INFO 3272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:45:33.783  INFO 3272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:45:33.799 DEBUG 3272 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:45:33.849 DEBUG 3272 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:45:33.884 DEBUG 3272 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 11:45:33.896 DEBUG 3272 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 11:45:33.897 DEBUG 3272 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:45:33.915 DEBUG 3272 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 11:45:34.024  INFO 3272 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:45:34.029  INFO 3272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:45:34.076  INFO 3272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:45:58.932  INFO 7904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 7904 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:45:58.934 DEBUG 7904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:45:58.936  INFO 7904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:46:02.365  INFO 7904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:46:02.844  WARN 7904 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:46:03.407  INFO 7904 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.441 seconds (JVM running for 7.769)
+2020-11-24 11:46:03.817  INFO 7904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:46:04.146  INFO 7904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:46:04.159 DEBUG 7904 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:46:04.200 DEBUG 7904 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:46:04.245 DEBUG 7904 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 11:46:04.348  INFO 7904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:46:04.353  INFO 7904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:46:04.411  INFO 7904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 11:47:50.248  INFO 8672 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 8672 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 11:47:50.252 DEBUG 8672 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 11:47:50.254  INFO 8672 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 11:47:53.528  INFO 8672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:47:53.969  WARN 8672 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 11:47:54.352  INFO 8672 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.007 seconds (JVM running for 7.322)
+2020-11-24 11:47:54.709  INFO 8672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 11:47:55.055  INFO 8672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 11:47:55.075 DEBUG 8672 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 11:47:55.124 DEBUG 8672 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:47:55.182 DEBUG 8672 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 11:47:55.209 DEBUG 8672 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 11:47:55.214 DEBUG 8672 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 11:47:55.222 DEBUG 8672 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 11:47:55.276  INFO 8672 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 11:47:55.280  INFO 8672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 11:47:55.303  INFO 8672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 12:02:33.603  INFO 9448 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 9448 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 12:02:33.605 DEBUG 9448 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 12:02:33.608  INFO 9448 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 12:02:37.118  INFO 9448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:02:37.632  WARN 9448 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 12:02:38.253  INFO 9448 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.389 seconds (JVM running for 7.645)
+2020-11-24 12:02:39.300  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 12:02:39.721  INFO 9448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 12:02:39.742 DEBUG 9448 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 12:02:39.795 DEBUG 9448 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 12:02:39.842 DEBUG 9448 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 12:02:39.862 DEBUG 9448 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 12:02:39.866 DEBUG 9448 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 2(Integer)
+2020-11-24 12:02:39.874 DEBUG 9448 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 12:02:39.875 DEBUG 9448 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 12:02:39.875 DEBUG 9448 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 2(Integer)
+2020-11-24 12:02:39.882 DEBUG 9448 --- [main] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 12:02:39.883 DEBUG 9448 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = ? where id = ?
+2020-11-24 12:02:39.884 DEBUG 9448 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 239.00(BigDecimal), 1(Integer)
+2020-11-24 12:02:39.901 DEBUG 9448 --- [main] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 12:02:39.964  INFO 9448 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:02:39.965  INFO 9448 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 12:02:39.993  INFO 9448 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 12:15:48.309  INFO 1268 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 1268 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 12:15:48.311 DEBUG 1268 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 12:15:48.317  INFO 1268 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 12:15:52.285  INFO 1268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:15:52.795  WARN 1268 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 12:15:53.281  INFO 1268 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.88 seconds (JVM running for 8.352)
+2020-11-24 12:15:53.760  INFO 1268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 12:15:54.271  INFO 1268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 12:15:54.292 DEBUG 1268 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 12:15:54.339 DEBUG 1268 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:15:54.370 DEBUG 1268 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 12:15:54.387 DEBUG 1268 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 12:15:54.388 DEBUG 1268 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:15:54.391 DEBUG 1268 --- [main] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 12:15:54.393 DEBUG 1268 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 12:15:54.395 DEBUG 1268 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 1(Integer)
+2020-11-24 12:15:54.401 DEBUG 1268 --- [main] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 12:15:54.403 DEBUG 1268 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 12:15:54.404 DEBUG 1268 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 288.50(BigDecimal), 1(Integer)
+2020-11-24 12:15:54.415 DEBUG 1268 --- [main] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 12:15:54.495  INFO 1268 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:15:54.503  INFO 1268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 12:15:54.534  INFO 1268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 12:16:50.655  INFO 9556 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 9556 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 12:16:50.657 DEBUG 9556 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 12:16:50.659  INFO 9556 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 12:16:53.992  INFO 9556 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:16:54.473  WARN 9556 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 12:16:54.924  INFO 9556 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 5.105 seconds (JVM running for 7.503)
+2020-11-24 12:16:55.377  INFO 9556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 12:16:55.778  INFO 9556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 12:16:55.795 DEBUG 9556 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 12:16:55.844 DEBUG 9556 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:16:55.895 DEBUG 9556 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 12:16:55.929 DEBUG 9556 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 12:16:55.930 DEBUG 9556 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 1(Integer)
+2020-11-24 12:16:55.943 DEBUG 9556 --- [main] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 12:16:55.944 DEBUG 9556 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 12:16:55.945 DEBUG 9556 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:16:55.949 DEBUG 9556 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 12:16:55.951 DEBUG 9556 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 12:16:55.952 DEBUG 9556 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 288.50(BigDecimal), 1(Integer)
+2020-11-24 12:16:55.958 DEBUG 9556 --- [main] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 12:16:56.008  INFO 9556 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:16:56.010  INFO 9556 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 12:16:56.028  INFO 9556 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 12:20:03.115  INFO 2816 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Starting AddBookToCart using Java 1.8.0_181 on m with PID 2816 (started by 　　　 in D:\code\doubanBook)
+2020-11-24 12:20:03.117 DEBUG 2816 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 12:20:03.119  INFO 2816 --- [main] c.s.doubanbook.mapper.AddBookToCart      : No active profile set, falling back to default profiles: default
+2020-11-24 12:20:07.443  INFO 2816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:20:08.008  WARN 2816 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 12:20:08.935  INFO 2816 --- [main] c.s.doubanbook.mapper.AddBookToCart      : Started AddBookToCart in 6.517 seconds (JVM running for 9.189)
+2020-11-24 12:20:09.652  INFO 2816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 12:20:10.092  INFO 2816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 12:20:10.114 DEBUG 2816 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 12:20:10.162 DEBUG 2816 --- [main] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:20:10.217 DEBUG 2816 --- [main] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 12:20:10.242 DEBUG 2816 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 12:20:10.243 DEBUG 2816 --- [main] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 1(Integer)
+2020-11-24 12:20:10.252 DEBUG 2816 --- [main] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 12:20:10.253 DEBUG 2816 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 12:20:10.254 DEBUG 2816 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 1(Integer)
+2020-11-24 12:20:10.262 DEBUG 2816 --- [main] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 12:20:10.264 DEBUG 2816 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 12:20:10.265 DEBUG 2816 --- [main] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 288.50(BigDecimal), 1(Integer)
+2020-11-24 12:20:10.276 DEBUG 2816 --- [main] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 12:20:10.332  INFO 2816 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-24 12:20:10.342  INFO 2816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 12:20:10.363  INFO 2816 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-24 13:03:19.358  INFO 1088 --- [main] c.s.doubanbook.DoubanBookApplication     : Starting DoubanBookApplication using Java 1.8.0_181 on m with PID 1088 (D:\code\doubanBook\target\classes started by 　　　 in D:\code\doubanBook)
+2020-11-24 13:03:19.367 DEBUG 1088 --- [main] c.s.doubanbook.DoubanBookApplication     : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 13:03:19.368  INFO 1088 --- [main] c.s.doubanbook.DoubanBookApplication     : No active profile set, falling back to default profiles: default
+2020-11-24 13:03:21.832  INFO 1088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-11-24 13:03:21.847  INFO 1088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 13:03:21.847  INFO 1088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 13:03:21.997  INFO 1088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 13:03:21.998  INFO 1088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2437 ms
+2020-11-24 13:03:23.323  INFO 1088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 13:03:23.545  WARN 1088 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 13:03:23.893  INFO 1088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-11-24 13:03:23.911  INFO 1088 --- [main] c.s.doubanbook.DoubanBookApplication     : Started DoubanBookApplication in 5.662 seconds (JVM running for 7.078)
+2020-11-24 13:04:18.707  INFO 1088 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 13:04:18.708  INFO 1088 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 13:04:18.709  INFO 1088 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-24 13:04:18.776  INFO 1088 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 13:04:19.105  INFO 1088 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 13:04:19.153 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:04:19.184 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:04:19.210 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 13:04:19.218 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:04:19.218 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 3(Integer)
+2020-11-24 13:04:19.225 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:04:19.226 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 13:04:19.227 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:04:19.230 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 13:04:19.231 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:04:19.232 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 88.00(BigDecimal), 1(Integer)
+2020-11-24 13:04:19.235 DEBUG 1088 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:04:19.536 ERROR 1088 --- [http-nio-9090-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-9090-exec-1] Exception processing template ""添加成功"": Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-11-24 13:04:19.543 ERROR 1088 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-11-24 13:04:25.441 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:04:25.449 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:04:25.457 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:04:25.459 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:04:25.460 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 3(Integer)
+2020-11-24 13:04:25.462 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:04:25.464 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:04:25.465 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:04:25.467 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:04:25.468 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:04:25.469 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 88.00(BigDecimal), 1(Integer)
+2020-11-24 13:04:25.471 DEBUG 1088 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:04:25.477 ERROR 1088 --- [http-nio-9090-exec-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-9090-exec-5] Exception processing template ""添加成功"": Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-11-24 13:04:25.479 ERROR 1088 --- [http-nio-9090-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template ["添加成功"], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.1.jar:5.3.1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-11-24 13:05:32.216  INFO 8848 --- [main] c.s.doubanbook.DoubanBookApplication     : Starting DoubanBookApplication using Java 1.8.0_181 on m with PID 8848 (D:\code\doubanBook\target\classes started by 　　　 in D:\code\doubanBook)
+2020-11-24 13:05:32.233 DEBUG 8848 --- [main] c.s.doubanbook.DoubanBookApplication     : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 13:05:32.234  INFO 8848 --- [main] c.s.doubanbook.DoubanBookApplication     : No active profile set, falling back to default profiles: default
+2020-11-24 13:05:34.260  INFO 8848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-11-24 13:05:34.270  INFO 8848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 13:05:34.270  INFO 8848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 13:05:34.362  INFO 8848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 13:05:34.362  INFO 8848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1964 ms
+2020-11-24 13:05:34.873  INFO 8848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 13:05:35.001  WARN 8848 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 13:05:35.220  INFO 8848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-11-24 13:05:35.231  INFO 8848 --- [main] c.s.doubanbook.DoubanBookApplication     : Started DoubanBookApplication in 3.796 seconds (JVM running for 5.106)
+2020-11-24 13:05:59.666  INFO 8848 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 13:05:59.667  INFO 8848 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 13:05:59.669  INFO 8848 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-24 13:05:59.721  INFO 8848 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 13:05:59.931  INFO 8848 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 13:05:59.970 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:06:00.003 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:06:00.027 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:06:00.031 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:06:00.032 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 3(Integer)
+2020-11-24 13:06:00.039 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:06:00.040 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:06:00.040 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 3(Integer)
+2020-11-24 13:06:00.043 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:06:00.044 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:06:00.045 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 88.00(BigDecimal), 1(Integer)
+2020-11-24 13:06:00.048 DEBUG 8848 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:11:41.000  INFO 1256 --- [main] c.s.doubanbook.DoubanBookApplication     : Starting DoubanBookApplication using Java 1.8.0_181 on m with PID 1256 (D:\code\doubanBook\target\classes started by 　　　 in D:\code\doubanBook)
+2020-11-24 13:11:41.009 DEBUG 1256 --- [main] c.s.doubanbook.DoubanBookApplication     : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 13:11:41.010  INFO 1256 --- [main] c.s.doubanbook.DoubanBookApplication     : No active profile set, falling back to default profiles: default
+2020-11-24 13:11:42.821  INFO 1256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-11-24 13:11:42.832  INFO 1256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 13:11:42.833  INFO 1256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 13:11:42.929  INFO 1256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 13:11:42.929  INFO 1256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1767 ms
+2020-11-24 13:11:43.458  INFO 1256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 13:11:43.612  WARN 1256 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 13:11:43.835  INFO 1256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-11-24 13:11:43.846  INFO 1256 --- [main] c.s.doubanbook.DoubanBookApplication     : Started DoubanBookApplication in 4.155 seconds (JVM running for 5.265)
+2020-11-24 13:11:47.947  INFO 1256 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 13:11:47.947  INFO 1256 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 13:11:47.952  INFO 1256 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-11-24 13:11:48.005  INFO 1256 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 13:11:48.227  INFO 1256 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 13:11:48.268 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:11:48.294 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 4(Integer)
+2020-11-24 13:11:48.315 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 13:11:48.319 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:11:48.319 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 4(Integer)
+2020-11-24 13:11:48.325 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:11:48.326 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 13:11:48.326 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 4(Integer)
+2020-11-24 13:11:48.329 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 13:11:48.329 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:11:48.330 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 117.60(BigDecimal), 1(Integer)
+2020-11-24 13:11:48.342 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:12.957 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:12:12.958 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:12:12.965 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:12:12.970 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?, ?
+2020-11-24 13:12:12.970 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer), 5(Integer)
+2020-11-24 13:12:12.977 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 5
+2020-11-24 13:12:13.050 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:12:13.051 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:12:13.052 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:12:13.053 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?
+2020-11-24 13:12:13.054 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer)
+2020-11-24 13:12:13.061 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 10
+2020-11-24 13:12:16.654 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:12:16.655 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:12:16.656 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:12:16.656 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:12:16.658 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:12:16.658 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:12:16.659 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?, ?
+2020-11-24 13:12:16.659 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?
+2020-11-24 13:12:16.660 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer)
+2020-11-24 13:12:16.660 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer), 5(Integer)
+2020-11-24 13:12:16.668 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 5
+2020-11-24 13:12:16.669 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 10
+2020-11-24 13:12:18.955 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:12:18.957 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 8(Integer)
+2020-11-24 13:12:18.992 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : <==      Total: 8
+2020-11-24 13:12:19.691 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:19.692 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:19.695 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 13:12:19.699 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:19.702 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:19.705 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:19.708 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 13:12:19.711 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:19.720 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 13:12:19.724 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:19.726 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:19.734 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:38.636 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:38.638 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:38.644 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:38.646 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:38.648 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:38.653 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:38.656 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:38.657 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:38.665 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:38.667 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:38.669 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:38.672 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:54.878 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:12:54.880 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 8(Integer)
+2020-11-24 13:12:54.902 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : <==      Total: 8
+2020-11-24 13:12:56.866 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:12:56.868 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 8(Integer)
+2020-11-24 13:12:56.881 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectById       : <==      Total: 8
+2020-11-24 13:12:57.739 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:57.741 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:57.746 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:57.748 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:57.750 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:57.755 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:57.758 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:57.759 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:57.765 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:57.767 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:57.769 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:57.786 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:58.523 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:58.525 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:58.529 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:58.533 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:58.534 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:58.536 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:58.538 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:58.539 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:58.546 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:58.547 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:58.549 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:58.552 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:58.887 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:58.889 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:58.893 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:58.895 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:58.897 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:58.900 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:58.902 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:58.904 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:58.909 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:58.910 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:58.913 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:58.917 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:59.153 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:59.154 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.159 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:59.161 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:59.162 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:59.164 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:59.168 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:59.171 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.174 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:59.175 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:59.176 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:59.180 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:59.303 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:59.305 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.311 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:59.314 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:59.315 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:59.317 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:59.319 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:59.320 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.323 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:59.326 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:59.328 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:59.332 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:12:59.405 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:12:59.407 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.410 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:12:59.412 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:12:59.413 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:12:59.416 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:12:59.418 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:12:59.419 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:12:59.423 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:12:59.425 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:12:59.426 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:12:59.429 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:13:11.462 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:13:11.463 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:13:11.467 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:13:11.469 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:13:11.470 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:13:11.472 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:13:11.474 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:13:11.475 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:13:11.481 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:13:11.483 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:13:11.485 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:13:11.488 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:13:17.242 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:13:17.244 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:13:17.248 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:13:17.250 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:13:17.251 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 8(Integer)
+2020-11-24 13:13:17.255 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:13:17.257 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:13:17.258 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 8(Integer)
+2020-11-24 13:13:17.261 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:13:17.262 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:13:17.264 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 86.00(BigDecimal), 1(Integer)
+2020-11-24 13:13:17.267 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:14:26.322 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:26.322 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:26.324 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:26.324 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:26.327 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:26.327 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:26.329 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?, ?
+2020-11-24 13:14:26.329 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?
+2020-11-24 13:14:26.330 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer)
+2020-11-24 13:14:26.330 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer), 5(Integer)
+2020-11-24 13:14:26.337 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 5
+2020-11-24 13:14:26.341 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 10
+2020-11-24 13:14:28.028 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:14:28.028 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 4(Integer)
+2020-11-24 13:14:28.037 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectById       : <==      Total: 16
+2020-11-24 13:14:30.189 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:14:30.191 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 4(Integer)
+2020-11-24 13:14:30.194 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:14:30.197 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:14:30.198 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 4(Integer)
+2020-11-24 13:14:30.201 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:14:30.203 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:14:30.205 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 4(Integer)
+2020-11-24 13:14:30.208 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:14:30.209 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:14:30.211 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 117.60(BigDecimal), 1(Integer)
+2020-11-24 13:14:30.215 DEBUG 1256 --- [http-nio-9090-exec-1] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:14:32.038 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:32.041 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:32.041 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:32.044 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:32.046 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:32.046 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?
+2020-11-24 13:14:32.049 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer)
+2020-11-24 13:14:32.054 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:32.056 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?, ?
+2020-11-24 13:14:32.057 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer), 5(Integer)
+2020-11-24 13:14:32.059 DEBUG 1256 --- [http-nio-9090-exec-3] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 10
+2020-11-24 13:14:32.077 DEBUG 1256 --- [http-nio-9090-exec-2] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 5
+2020-11-24 13:14:33.681 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:14:33.683 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 6(Integer)
+2020-11-24 13:14:33.692 DEBUG 1256 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : <==      Total: 8
+2020-11-24 13:14:35.137 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:14:35.138 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 6(Integer)
+2020-11-24 13:14:35.141 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 13:14:35.142 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:14:35.144 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 6(Integer)
+2020-11-24 13:14:35.147 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:14:35.148 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 13:14:35.149 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 6(Integer)
+2020-11-24 13:14:35.156 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 13:14:35.158 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:14:35.159 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 49.00(BigDecimal), 1(Integer)
+2020-11-24 13:14:35.167 DEBUG 1256 --- [http-nio-9090-exec-5] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:14:36.145 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:36.145 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book
+2020-11-24 13:14:36.146 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:36.146 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : ==> Parameters: 
+2020-11-24 13:14:36.149 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:36.149 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll_COUNT  : <==      Total: 1
+2020-11-24 13:14:36.150 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?
+2020-11-24 13:14:36.150 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : ==>  Preparing: select * from book LIMIT ?, ?
+2020-11-24 13:14:36.151 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer)
+2020-11-24 13:14:36.151 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : ==> Parameters: 10(Integer), 5(Integer)
+2020-11-24 13:14:36.157 DEBUG 1256 --- [http-nio-9090-exec-6] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 5
+2020-11-24 13:14:36.158 DEBUG 1256 --- [http-nio-9090-exec-7] c.s.d.mapper.BookMapper.selectAll        : <==      Total: 10
+2020-11-24 13:14:39.007 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 13:14:39.009 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 7(Integer)
+2020-11-24 13:14:39.027 DEBUG 1256 --- [http-nio-9090-exec-8] c.s.d.mapper.BookMapper.selectById       : <==      Total: 18
+2020-11-24 13:14:41.461 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:14:41.462 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 7(Integer)
+2020-11-24 13:14:41.465 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 0
+2020-11-24 13:14:41.467 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:14:41.468 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 7(Integer)
+2020-11-24 13:14:41.472 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:14:41.474 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : ==>  Preparing: INSERT INTO cart_book(cartid,bookId,booknum) VALUES(?,?,1)
+2020-11-24 13:14:41.477 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : ==> Parameters: 1(Integer), 7(Integer)
+2020-11-24 13:14:41.483 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.m.CartAndBookMapper.insertBook     : <==    Updates: 1
+2020-11-24 13:14:41.484 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:14:41.485 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 205.00(BigDecimal), 1(Integer)
+2020-11-24 13:14:41.489 DEBUG 1256 --- [http-nio-9090-exec-9] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 13:15:05.721 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : ==>  Preparing: select * from cart_book where cartId = ? and bookId = ?
+2020-11-24 13:15:05.722 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : ==> Parameters: 1(Integer), 7(Integer)
+2020-11-24 13:15:05.725 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.C.selectByCartIdBookId           : <==      Total: 1
+2020-11-24 13:15:05.727 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : ==>  Preparing: select price from book where id = ?;
+2020-11-24 13:15:05.728 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : ==> Parameters: 7(Integer)
+2020-11-24 13:15:05.730 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.BookMapper.selectPrise      : <==      Total: 1
+2020-11-24 13:15:05.732 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : ==>  Preparing: update cart_book set bookNum = bookNum + 1 where cartId = ? and bookId = ?
+2020-11-24 13:15:05.733 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : ==> Parameters: 1(Integer), 7(Integer)
+2020-11-24 13:15:05.738 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.m.CartAndBookMapper.updateBookNum  : <==    Updates: 1
+2020-11-24 13:15:05.740 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : ==>  Preparing: update cart set totalPrice = totalPrice + ? where id = ?
+2020-11-24 13:15:05.741 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : ==> Parameters: 205.00(BigDecimal), 1(Integer)
+2020-11-24 13:15:05.744 DEBUG 1256 --- [http-nio-9090-exec-10] c.s.d.mapper.CartMapper.setPrise         : <==    Updates: 1
+2020-11-24 14:18:26.625  INFO 7144 --- [main] c.s.doubanbook.DoubanBookApplication     : Starting DoubanBookApplication using Java 1.8.0_181 on m with PID 7144 (D:\code\doubanBook\target\classes started by 　　　 in D:\code\doubanBook)
+2020-11-24 14:18:26.631 DEBUG 7144 --- [main] c.s.doubanbook.DoubanBookApplication     : Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-11-24 14:18:26.631  INFO 7144 --- [main] c.s.doubanbook.DoubanBookApplication     : No active profile set, falling back to default profiles: default
+2020-11-24 14:18:28.899  INFO 7144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-11-24 14:18:28.912  INFO 7144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 14:18:28.912  INFO 7144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 14:18:29.016  INFO 7144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 14:18:29.016  INFO 7144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2159 ms
+2020-11-24 14:18:30.253  INFO 7144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 14:18:30.434  WARN 7144 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-24 14:18:30.723  INFO 7144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-11-24 14:18:30.734  INFO 7144 --- [main] c.s.doubanbook.DoubanBookApplication     : Started DoubanBookApplication in 4.934 seconds (JVM running for 5.986)
+2020-11-24 14:18:52.905  INFO 7144 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 14:18:52.906  INFO 7144 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 14:18:52.908  INFO 7144 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-24 14:18:52.977  INFO 7144 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-24 14:18:53.323  INFO 7144 --- [http-nio-9090-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-24 14:18:53.336 DEBUG 7144 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 14:18:53.375 DEBUG 7144 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 1(Integer)
+2020-11-24 14:18:53.460 DEBUG 7144 --- [http-nio-9090-exec-1] c.s.d.mapper.BookMapper.selectById       : <==      Total: 16
+2020-11-24 14:19:10.121 DEBUG 7144 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : ==>  Preparing: select b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN, i.id iid,i.imgUrl,i.bookId from book b inner join image i on b.id = i.bookId where b.id = ? and isShow
+2020-11-24 14:19:10.123 DEBUG 7144 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : ==> Parameters: 1(Integer)
+2020-11-24 14:19:10.132 DEBUG 7144 --- [http-nio-9090-exec-4] c.s.d.mapper.BookMapper.selectById       : <==      Total: 16
