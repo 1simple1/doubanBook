@@ -1,6 +1,7 @@
 package com.simplem.doubanbook.service;
 
 import com.simplem.doubanbook.model.Book;
+import com.simplem.doubanbook.vo.BookDetail;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
 public interface BookService {
     List<Book> selectAll();
 
-    Book selectById(int id);
+    BookDetail selectById(int id);
 
     int insert(Book book);
 

@@ -1,6 +1,7 @@
 package com.simplem.doubanbook.mapper;
 
 import com.simplem.doubanbook.model.Book;
+import com.simplem.doubanbook.vo.BookDetail;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -20,7 +21,7 @@ public interface BookMapper {
     List<Book> selectAll();
 
     //查询图书详细信息
-    Book selectById(int id);
+    BookDetail selectById(int id);
 
     //插入图书基本信息
     int insert(Book book);

@@ -20,4 +20,6 @@ public interface CartAndBookMapper {
     int insertBook(@Param("cid") int cid,@Param("bid") int bid);
 
     int updateBookNum(@Param("cid") int cid, @Param("bid") int bid);
+
+    int sumBookNum(@Param("cid") int cid);
 }

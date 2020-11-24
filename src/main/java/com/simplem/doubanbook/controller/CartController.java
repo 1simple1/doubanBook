@@ -24,10 +24,23 @@ public class CartController {
 
     //将图书添加到购物车
     @RequestMapping("/addToCart")
-    public String addBookToCart(@RequestParam("userId") int cid,
+    public String addBookToCart(@RequestParam(defaultValue = "1") int userId,
                                 @RequestParam("bookId") int bid) {
-        String s = cartService.addToCart(cid, bid);
+        String s = cartService.addToCart(userId, bid);
         s = JSON.toJSONString(s);
         return s;
     }
+
+    @RequestMapping("/cart")
+    public String cart(@RequestParam(defaultValue = "1") int userId){
+
+        return null;
+    }
+
+    /*@RequestMapping("/changeCart")
+    public String changeCart(@RequestParam(defaultValue = "1") int userId,
+                             @RequestParam("userId") int cid,
+                             @RequestParam("bookId") int bid){
+
+    }*/
 }

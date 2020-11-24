@@ -4,6 +4,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * ClassName: CartMapper
@@ -15,4 +16,6 @@ import java.math.BigDecimal;
 @Repository
 public interface CartMapper {
     int setPrise(@Param("cid") int cid, @Param("price")BigDecimal price);
+
+    List<Integer> selectBooks(int cid);
 }

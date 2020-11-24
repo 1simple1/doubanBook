@@ -5,16 +5,14 @@
 
 
     <select id="selectAll" resultType="book">
-        select * from book
+        select * from book where isShow
     </select>
 
-    <resultMap id="bookImage" type="Book">
+    <resultMap id="bookImage" type="com.simplem.doubanbook.vo.BookDetail">
         <result property="id" column="bid"/>
-        <result property="panelImg" column="panelImg"/>
         <result property="bookfaceImg" column="bookfaceImg"/>
         <result property="price" column="price"/>
         <result property="bookName" column="bookName"/>
-        <result property="description" column="description"/>
         <result property="author" column="author"/>
         <result property="press" column="press"/>
         <result property="publishTime" column="publishTime"/>
@@ -29,7 +27,7 @@
 
     <select id="selectById" parameterType="int" resultMap="bookImage">
         select
-        b.id bid, panelImg, bookfaceImg, price, bookName, description, author, press, publishTime, binding, ISBN,
+        b.id bid, b.bookfaceImg, b.price, b.bookName, b.author, b.press,b.publishTime, b.binding, b.ISBN,
         i.id iid,i.imgUrl,i.bookId
         from book b
         inner join image i on b.id = i.bookId

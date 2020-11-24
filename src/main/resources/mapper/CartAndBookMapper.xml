@@ -15,5 +15,8 @@
         update cart_book set bookNum = bookNum + 1 where cartId = #{cid} and bookId = #{bid}
     </update>
 
+    <select id="sumBookNum" resultType="int">
+        select sum(bookNum) from cart_book where cartId = #{cid}
+    </select>
 
 </mapper>

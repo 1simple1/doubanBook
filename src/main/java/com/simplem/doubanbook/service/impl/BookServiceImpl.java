@@ -3,6 +3,7 @@ package com.simplem.doubanbook.service.impl;
 import com.simplem.doubanbook.mapper.BookMapper;
 import com.simplem.doubanbook.model.Book;
 import com.simplem.doubanbook.service.BookService;
+import com.simplem.doubanbook.vo.BookDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +37,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Book selectById(int id) {
+    public BookDetail selectById(int id) {
         return bookMapper.selectById(id);
     }
 

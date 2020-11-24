@@ -7,4 +7,7 @@
         update cart set totalPrice = totalPrice + #{price} where id = #{cid}
     </update>
 
+    <select id="selectBooks" parameterType="int" resultType="int">
+        select bookId  from cart_book where cartId = #{cid}
+    </select>
 </mapper>
