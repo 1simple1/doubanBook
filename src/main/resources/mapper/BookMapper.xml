@@ -49,7 +49,7 @@
     </update>
 
     <select id="cart" parameterType="list" resultType="com.simplem.doubanbook.vo.BookCart">
-        select b.id,b.author,b.price,b.bookfaceImg,b.press,b.bookName,cb.bookNum
+        select b.id,b.author,b.price,b.bookfaceImg,b.press,b.bookName,cb.bookNum,cb.checked
         from book b
         inner join cart_book cb on b.id = cb.bookId
         <where> id in

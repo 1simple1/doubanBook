@@ -26,8 +26,8 @@ public class CartController {
     @RequestMapping("/addToCart")
     public String addBookToCart(@RequestParam(defaultValue = "1") int userId,
                                 @RequestParam("bookId") int bid,
-                                @RequestParam("bookId") int num) {
-        String s = cartService.addToCart(userId, bid, num);
+                                @RequestParam("bookNum") int bookNum) {
+        String s = cartService.addToCart(userId, bid, bookNum);
         s = JSON.toJSONString(s);
         return s;
     }
@@ -38,5 +38,12 @@ public class CartController {
         String s = JSON.toJSONString(cart);
         return s;
     }
+
+    @RequestMapping("/cart/removeAll")
+    public String removeAll(){
+
+        return null;
+    }
+
 
 }
