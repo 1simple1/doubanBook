@@ -28,8 +28,6 @@ public class BookDetail {
     private String price;
     private String publishTime;
 
-    //图书数量
-    private int bookNum;
     //购物车内图书总数量
     private int cartNum;
 

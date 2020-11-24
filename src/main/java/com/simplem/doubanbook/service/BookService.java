@@ -21,5 +21,4 @@ public interface BookService {
 
     int updateDetail(int id,Book book);
 
-    List<Book> cart(List<Integer> ids);
 }

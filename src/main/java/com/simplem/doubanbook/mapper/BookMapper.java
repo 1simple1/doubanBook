@@ -1,6 +1,7 @@
 package com.simplem.doubanbook.mapper;
 
 import com.simplem.doubanbook.model.Book;
+import com.simplem.doubanbook.vo.BookCart;
 import com.simplem.doubanbook.vo.BookDetail;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -30,7 +31,7 @@ public interface BookMapper {
     int updateDetail(@Param("id") int id, @Param("book") Book book);
 
     //查询购物车的图书
-    List<Book> cart(List<Integer> ids);
+    List<BookCart> cart(List<Integer> bookIds);
 
     //查询图书价格
     BigDecimal selectPrise(@Param("bid") int bid);

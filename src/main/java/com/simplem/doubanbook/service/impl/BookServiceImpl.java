@@ -41,8 +41,5 @@ public class BookServiceImpl implements BookService {
         return bookMapper.selectById(id);
     }
 
-    @Override
-    public List<Book> cart(List<Integer> ids) {
-        return bookMapper.cart(ids);
-    }
+
 }

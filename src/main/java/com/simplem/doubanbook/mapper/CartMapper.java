@@ -1,5 +1,6 @@
 package com.simplem.doubanbook.mapper;
 
+import com.simplem.doubanbook.model.Cart;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -17,5 +18,6 @@ import java.util.List;
 public interface CartMapper {
     int setPrise(@Param("cid") int cid, @Param("price")BigDecimal price);
 
-    List<Integer> selectBooks(int cid);
+    Cart selectCart(int cid);
+
 }

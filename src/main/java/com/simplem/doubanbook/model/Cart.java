@@ -1,5 +1,6 @@
 package com.simplem.doubanbook.model;
 
+import com.simplem.doubanbook.vo.BookCart;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,9 +20,8 @@ import java.util.List;
 @AllArgsConstructor
 public class Cart {
     private int id;
-    private int userId;
     private BigDecimal totalPrice;
+    private int cartNum;
 
-    private List<Book> books;
-    private User user;
+    private List<BookCart> books;
 }

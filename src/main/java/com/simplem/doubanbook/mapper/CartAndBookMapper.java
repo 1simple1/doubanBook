@@ -4,6 +4,8 @@ import com.simplem.doubanbook.model.CartAndBook;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * ClassName: CartAndBookMapper
  * Package: com.simplem.doubanbook.mapper
@@ -17,9 +19,13 @@ public interface CartAndBookMapper {
     CartAndBook selectByCartIdBookId(@Param("cid") int cid, @Param("bid") int bid);
 
     //添加购物车
-    int insertBook(@Param("cid") int cid,@Param("bid") int bid);
+    int insertBook(@Param("cid") int cid, @Param("bid") int bid,@Param("num") int num);
 
-    int updateBookNum(@Param("cid") int cid, @Param("bid") int bid);
+    //更新图书数量
+    int updateBookNum(@Param("cid") int cid, @Param("bid") int bid,@Param("num") int num);
 
+    //查询购物车图书总数量
     int sumBookNum(@Param("cid") int cid);
+
+    List<Integer> selectBookIds(int cid);
 }

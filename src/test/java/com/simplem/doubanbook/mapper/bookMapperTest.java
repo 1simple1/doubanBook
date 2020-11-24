@@ -23,16 +23,5 @@ public class bookMapperTest {
     @Autowired
     private CartAndBookMapper cartAndBookMapper;
 
-    @Test
-    public void cartTest(){
-        List<Integer> bookList = new ArrayList<>();
-        bookList.add(1);
-        bookList.add(3);
-        List<Book> cart = bookMapper.cart(bookList);
-        for (Book book : cart) {
-            System.out.println(book);
-        }
-    }
-
 
 }

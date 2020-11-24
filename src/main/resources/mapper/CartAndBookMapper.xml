@@ -8,15 +8,19 @@
     </select>
 
     <insert id="insertBook" parameterType="_int">
-        INSERT INTO cart_book(cartid,bookId,booknum) VALUES(#{cid},#{bid},1)
+        INSERT INTO cart_book(cartid,bookId,booknum) VALUES(#{cid},#{bid},#{num})
     </insert>
 
     <update id="updateBookNum" parameterType="_int">
-        update cart_book set bookNum = bookNum + 1 where cartId = #{cid} and bookId = #{bid}
+        update cart_book set bookNum = bookNum + #{num} where cartId = #{cid} and bookId = #{bid}
     </update>
 
     <select id="sumBookNum" resultType="int">
-        select sum(bookNum) from cart_book where cartId = #{cid}
+        select count(bookNum) from cart_book where cartId = #{cid}
+    </select>
+    
+    <select id="selectBookIds" parameterType="int" resultType="int">
+        select bookId from  cart_book where cartId =#{cid}
     </select>
 
 </mapper>

@@ -48,12 +48,15 @@
         where id= #{id}
     </update>
 
-    <select id="cart" parameterType="list" resultType="book">
-        select * from book
+    <select id="cart" parameterType="list" resultType="com.simplem.doubanbook.vo.BookCart">
+        select b.id,b.author,b.price,b.bookfaceImg,b.press,b.bookName,cb.bookNum
+        from book b
+        inner join cart_book cb on b.id = cb.bookId
         <where> id in
             <foreach collection="list" item="id" open="(" separator="," close=")">
                 #{id}
             </foreach>
+            and b.isShow
         </where>
     </select>
 

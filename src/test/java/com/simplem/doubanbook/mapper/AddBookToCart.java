@@ -24,7 +24,7 @@ class AddBookToCart {
 
     @Autowired
     private CartMapper cartMapper;
-    @Test
+    /*@Test
     void test(){
         int cid = 1;
         int bid = 1;
@@ -39,5 +39,5 @@ class AddBookToCart {
         }
         //更新购物车的总价格
         cartMapper.setPrise(cid,price);
-    }
+    }*/
 }
